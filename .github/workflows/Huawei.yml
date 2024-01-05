@@ -19,7 +19,7 @@ jobs:
         run: |
           cp -r sh/* ./
       - name: chmod Build
-        run: chmod +x patch_xiaomi.sh
+        run: chmod +x patch_huawei.sh
       - name: download chmod
         run: chmod +x download.sh
       - name: download
